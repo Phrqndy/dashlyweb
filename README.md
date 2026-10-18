@@ -38,13 +38,14 @@ Live speed and temperatures from your VESC over BLE, in one HTML file. (BLE is s
 
 1. **Host the folder over HTTPS.** Web Bluetooth only works on secure pages; `localhost` also works for testing.
 2. **Open it in a Web Bluetooth browser:**
-   - **iPhone / iPad:** [Bluefy](https://apps.apple.com/app/bluefy-web-ble-browser/id1492822055) (Safari has no Web Bluetooth)
-   - **Android / Desktop:** Chrome or Edge
+   - **iOS:** [Bluefy](https://apps.apple.com/app/bluefy-web-ble-browser/id1492822055) (Safari and Chrome on iOS have no Web Bluetooth)
+   - **Android:** Chrome
 3. Tap **Connect → Scan for VESC BLE** and choose your adapter.
 4. Ride. 🛹
 
 > [!TIP]
-> In Bluefy, use **Add to Home Screen** to open Dashy Lite full-screen, like an app.
+> **Android:** Chrome → ⋮ → **Add to Home screen** to launch Dashy Lite like an app.
+> **iOS:** Bluefy can't add home-screen icons. Bookmark the site in Bluefy, or make a **Shortcuts → Open App → Bluefy** shortcut and add that to your home screen.
 
 ### Test it locally
 
@@ -107,7 +108,7 @@ webapp/
 
 | Problem | Fix |
 |---|---|
-| "Web Bluetooth unavailable" | Open the page in Bluefy (iOS) or Chrome (Android/desktop), over HTTPS |
+| "Web Bluetooth unavailable" / "no Bluetooth on iOS" | Open the page in Bluefy (iOS) or Chrome (Android), over HTTPS |
 | "Does not expose the VESC BLE UART service" | Pick the VESC BLE adapter in the list, not another device |
 | Connected but speed shows **—** | Your VESC has no wheel setup; switch to **Manual** speed |
 | Keeps dropping | Move closer; Dashy Lite reconnects by itself |
