@@ -44,8 +44,10 @@ Live speed and temperatures from your VESC over BLE, in one HTML file. (BLE is s
 4. Ride. 🛹
 
 > [!TIP]
-> **Android:** Chrome → ⋮ → **Add to Home screen** to launch Dashy Lite like an app.
-> **iOS:** Bluefy can't add home-screen icons. Bookmark the site in Bluefy, or make a **Shortcuts → Open App → Bluefy** shortcut and add that to your home screen.
+> **Android:** In Chrome, **Add to Home screen** to launch Dashy Lite like an app.
+>
+> **iOS:** In Bluefy, tap the **menu button** (bottom right), scroll down slightly and tap **Full Screen**.
+
 
 ### Test it locally
 
